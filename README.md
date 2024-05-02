@@ -22,29 +22,29 @@ We compare 5 models on this task:
 (1)CNN+FC 
 <p align="center">
 <img src="./CNN+FC_LSTM.png" alt="Representing the process of window slicer with CNN+FC for classification."
-width="300px"></p>
+width="100px"></p>
 
 (2)YAMnet+LSTM 
 <p align="center">
 <img src="./YAMnet_LSTM.png" alt="Representing the process of YAMnet extracting embeddings,
     and feeding the embeddings to LSTM for classification."
-width="300px"></p>
+width="100px"></p>
 
 (3)VGGish+LSTM 
 <p align="center">
 <img src="./VGGish_LSTM.png" alt="Representing the process of VGGish extracting embeddings,
     and feeding the embeddings to LSTM for classification."
-width="300px"></p>
+width="100px"></p>
 
 (4)OpenL3+LSTM 
 <p align="center">
 <img src="./OpenL3_LSTM.png" alt="Representing the process of OpenL3 extracting embeddings,
     and feeding the embeddings to LSTM for classification."
-width="300px"></p>
+width="100px"></p>
 
 (5)PANNs+LSTM
 <p align="center">
 <img src="./PANNs_LSTM.png" alt="Representing the process of PANNs extracting embeddings,
     and feeding the embeddings to LSTM for classification."
-width="300px"></p>
+width="100px"></p>
 
