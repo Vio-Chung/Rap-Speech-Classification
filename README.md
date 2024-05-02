@@ -19,18 +19,32 @@ The Data preparation, data pre-processing, and data cleaning are time-concuming.
 ## Models
 We compare 5 models on this task: 
 
-(1)CNN+FC 
-<!-- <p align="center">
-<img src="./CNN+FC_LSTM.png" alt="Representing the process of window slicer with CNN+FC for classification."
-width="100px"></p> -->
 
-(2) YAMnet+LSTM
-<div style="text-align: center; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-    <img src="./CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">  
+<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+  <div>
+    <p>(1) CNN+FC</p>
+    <img src="./CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">
+  </div>
+  
+  <div>
+    <p>(2) YAMnet+LSTM</p>
     <img src="./YAMnet_LSTM.png" alt="YAMnet extracting embeddings and feeding them to LSTM for classification." width="200px">
+  </div>
+  
+  <div>
+    <p>(3) VGGish+LSTM</p>
     <img src="./VGGish_LSTM.png" alt="VGGish extracting embeddings and feeding them to LSTM for classification." width="200px">
+  </div>
+  
+  <div>
+    <p>(4) OpenL3+LSTM</p>
     <img src="./OpenL3_LSTM.png" alt="OpenL3 extracting embeddings and feeding them to LSTM for classification." width="200px">
+  </div>
+  
+  <div>
+    <p>(5) PANNs+LSTM</p>
     <img src="./PANNs_LSTM.png" alt="PANNs extracting embeddings and feeding them to LSTM for classification." width="200px">
+  </div>
 </div>
 
 
