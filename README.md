@@ -26,7 +26,7 @@ width="100px"></p> -->
 
 (2) YAMnet+LSTM
 <div style="text-align: center; display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-    <img src="./CNN+FC_LSTM.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">  
+    <img src="./CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">  
     <img src="./YAMnet_LSTM.png" alt="YAMnet extracting embeddings and feeding them to LSTM for classification." width="200px">
     <img src="./VGGish_LSTM.png" alt="VGGish extracting embeddings and feeding them to LSTM for classification." width="200px">
     <img src="./OpenL3_LSTM.png" alt="OpenL3 extracting embeddings and feeding them to LSTM for classification." width="200px">
