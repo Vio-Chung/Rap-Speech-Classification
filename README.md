@@ -5,7 +5,9 @@ Many studies have leveraged the harmonic patterns in music to achieve high accur
 Our data is self-collected audio data of speech and rap vocals, which are scrapped from youtube via [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), followed by [`Demucs (htdemucs_ft version)`](https://github.com/facebookresearch/demucs) for separating target vocals from music tracks.
 
 ## Dataset
-This project uses self-collected data. The **Ultimate_Rap_Dataset_Cleaned** has 207 rap songs with a total of 48109 sec ≈ 13.36 hr; The **Ultimate_Speech_Dataset_Cleaned** has 172 speech audio files with a total of 76362 sec ≈ 21.21 hr. 
+This project uses self-collected data. <br/>
+The **Ultimate_Rap_Dataset_Cleaned** has 207 rap songs with a total of 48109 sec ≈ 13.36 hr; <br/>
+The **Ultimate_Speech_Dataset_Cleaned** has 172 speech audio files with a total of 76362 sec ≈ 21.21 hr. 
 
 ### Data collection
 The Data preparation, data pre-processing, and data cleaning are time-concuming. After having our audio data with JSON files downloaded, we perform vocal separation to extract rap vocals as well as speech from their music tracks. Followed by removing and replacing problematic characters, ensuring compatibility across different systems and software, and preventing errors, we formed our **Ultimate** datasets.
@@ -55,10 +57,10 @@ If using pip:
 pip install -r requirements.txt
 ```
 ### Run the Notebook Cells
-To effectively progress through the model training process, it is crucial to run the cells in your Jupyter notebook sequentially. Each cell in the notebook builds upon the previous ones, from data loading and preprocessing to the final stages of model training. Here are some important points to keep in mind:
-- Data Reshaping: Different pre-trained models require input tensors of different shapes. Pay attention to the reshaping steps in the notebook to ensure that your data conforms to the required dimensions for each model.
-- Variable and File Names: In the notebook, variables that store temporary data might have the same names as the .np or .npz files where data is saved. While they share names, their contents at any given point could be different due to ongoing data processing steps.
-- Saving and Loading Data:
+To effectively progress through the model training process, it is crucial to run the cells in your Jupyter notebook sequentially. Each cell in the `BetterNotebook.ipynb` builds upon the previous ones, from data loading and preprocessing to the final stages of model training. Here are some important points to keep in mind:
+- **Data Reshaping**: Different pre-trained models require input tensors of different shapes. Pay attention to the reshaping steps in the notebook to ensure that your data conforms to the required dimensions for each model.
+- **Variable and File Names**: In the notebook, variables that store temporary data might have the same names as the .np or .npz files where data is saved. While they share names, their contents at any given point could be different due to ongoing data processing steps.
+- **Saving and Loading Data**:
 Throughout the notebook, data is frequently saved to and loaded from .np (NumPy arrays) or .npz (compressed NumPy array archives) files. Make sure to modify to your path.
 
 ### Demo
