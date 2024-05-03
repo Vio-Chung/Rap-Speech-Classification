@@ -23,7 +23,7 @@ We compare 5 models on this task:
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (1) CNN+FC</summary>
-    <img src="./images/CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">
+    <img src="./images/CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="400px">
 </details>
 
 <details style="text-align: center; margin: 20px;">
