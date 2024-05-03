@@ -1,4 +1,4 @@
-# Rap Vocals and Speech Classifier
+# Sound Classification on Rap Vocals and Speech
 ## Overview
 Many studies have leveraged the harmonic patterns in music to achieve high accuracy on music/speech classification. However, the rap genre, with its vocal style closely resembling spoken words, blurs these lines with its speech-like qualities. This project will investigate the efficacy of 4 existing *pre-trained models + LSTM* and 1 *CNN+FC (fully connected layers)* in discriminating between rap vocals and speech. 
 
@@ -64,7 +64,17 @@ To effectively progress through the model training process, it is crucial to run
 Throughout the notebook, data is frequently saved to and loaded from .np (NumPy arrays) or .npz (compressed NumPy array archives) files. Make sure to modify to your path.
 
 ### Demo
-See how my demo identify 3 raw rap vocals.
+Check out our [Colab demo](https://github.com/Vio-Chung/Rap-Speech-Classification/blob/main/Demo/PANNs%2BLSTM_demo.ipynb) to see how the model identifies three raw rap vocals. The chosen model, `PANNs+LSTM`, is our best-performing model. The model outputs a probability between 0 and 1, with 0 indicating rap and 1 indicating speech.
+
+For a bit of fun, try recording your own rap vocals and testing them with the model! Use your own audio and see how our classification system handles your unique style.
+
+## Result
+<details style="text-align: center; margin: 20px;">
+    <img src="./images/Result.png" alt="Results comparision between 5 models." width="800px">
+</details>
+
+## Acknowledgments
+Special thanks to my teammates, Junzhe Liu and Nick Lin, for their contributions to debugging and creating the demo. Their collaboration and support have been invaluable to this project.
 
 ## Citation
 Please cite this repo if you find this project helpful for your project/paper:
