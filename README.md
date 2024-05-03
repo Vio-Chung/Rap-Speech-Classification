@@ -6,8 +6,8 @@ Our data is self-collected audio data of speech and rap vocals, which are scrapp
 
 ## Dataset
 This project uses self-collected data. <br/>
-The **Ultimate_Rap_Dataset_Cleaned** has 207 rap songs with a total of 48109 sec ≈ 13.36 hr; <br/>
-The **Ultimate_Speech_Dataset_Cleaned** has 172 speech audio files with a total of 76362 sec ≈ 21.21 hr. 
+The ***Ultimate_Rap_Dataset_Cleaned*** has 207 rap songs with a total of 48109 sec ≈ 13.36 hr; <br/>
+The ***Ultimate_Speech_Dataset_Cleaned*** has 172 speech audio files with a total of 76362 sec ≈ 21.21 hr. 
 
 ### Data collection
 The Data preparation, data pre-processing, and data cleaning are time-concuming. After having our audio data with JSON files downloaded, we perform vocal separation to extract rap vocals as well as speech from their music tracks. Followed by removing and replacing problematic characters, ensuring compatibility across different systems and software, and preventing errors, we formed our **Ultimate** datasets.
@@ -23,27 +23,27 @@ We compare 5 models on this task:
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (1) CNN+FC</summary>
-    <img src="./CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">
+    <img src="./images/CNN+FC.png" alt="Representing the process of window slicer with CNN+FC for classification." width="200px">
 </details>
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (2) YAMnet+LSTM</summary>
-    <img src="./YAMnet_LSTM.png" alt="YAMnet extracting embeddings and feeding them to LSTM for classification." width="200px">
+    <img src="./images/YAMnet_LSTM.png" alt="YAMnet extracting embeddings and feeding them to LSTM for classification." width="200px">
 </details>
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (3) VGGish+LSTM</summary>
-    <img src="./VGGish_LSTM.png" alt="VGGish extracting embeddings and feeding them to LSTM for classification." width="200px">
+    <img src="./images/VGGish_LSTM.png" alt="VGGish extracting embeddings and feeding them to LSTM for classification." width="200px">
 </details>
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (4) OpenL3+LSTM</summary>
-    <img src="./OpenL3_LSTM.png" alt="OpenL3 extracting embeddings and feeding them to LSTM for classification." width="200px">
+    <img src="./images/OpenL3_LSTM.png" alt="OpenL3 extracting embeddings and feeding them to LSTM for classification." width="200px">
 </details>
 
 <details style="text-align: center; margin: 20px;">
     <summary>&emsp; (5) PANNs+LSTM</summary>
-    <img src="./PANNs_LSTM.png" alt="PANNs extracting embeddings and feeding them to LSTM for classification." width="200px">
+    <img src="./images/PANNs_LSTM.png" alt="PANNs extracting embeddings and feeding them to LSTM for classification." width="200px">
 </details>
 
 ## How to use this repository
@@ -66,6 +66,22 @@ Throughout the notebook, data is frequently saved to and loaded from .np (NumPy 
 ### Demo
 See how my demo identify 3 raw rap vocals.
 
+## Citation
+Please cite this repo if you find this project helpful for your project/paper:
+```
+Chung, F. (2024). Sound Classification on Rap Vocals and Speech. GitHub repository, https://github.com/Vio-Chung/Rap-Speech-Classification.
+```
+```
+cff-version: 1.2.0
+message: "Please cite it as below if used."
+authors:
+  - family-names: Chung
+    given-names: Fang-Chi (Vio)
+    orcid: https://orcid.org/0009-0004-0857-5252
+title: "Sound Classification on Rap Vocals and Speech"
+version: 1.0.0
+date-released: 2024-05-02
+```
 ## Referencess
 - [`yt-dlp` usage instructions](https://github.com/yt-dlp/yt-dlp#readme)
 
