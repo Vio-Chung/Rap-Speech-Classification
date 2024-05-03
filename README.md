@@ -69,9 +69,10 @@ Check out our [Colab demo](https://github.com/Vio-Chung/Rap-Speech-Classificatio
 For a bit of fun, try recording your own rap vocals and testing them with the model! Use your own audio and see how our classification system handles your unique style.
 
 ## Result
-<details style="text-align: center; margin: 20px;">
-    <img src="./images/Result.png" alt="Results comparision between 5 models." width="800px">
-</details>
+The four pre-trained embedding extractor models with LSTM, as well as a simple CNN+FC model, achieved rather similar test accuracy, with the PANNs+LSTM and VGGish+LSTM models delivered the best performance. Interestingly, the naive CNN+FC model demonstrated its potential and competitiveness in this task. All models achieved a performance of around 80%-90% in accuracy.
+<p align="center">
+<img src="./images/Result.png" alt="Results comparision between 5 models."
+width="800px"></p>
 
 ## Acknowledgments
 Special thanks to my teammates, Junzhe Liu and Nick Lin, for their contributions to debugging and creating the demo. Their collaboration and support have been invaluable to this project.
